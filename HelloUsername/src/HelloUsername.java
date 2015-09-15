@@ -17,7 +17,7 @@
 			System.out.println("Enter your password");
 			password = keyboard.next();
 			
-			System.out.println("Hello " + name + ",");
+			System.out.println("Hello " + name + ", welcome to CSC200 class!");
 			System.out.println("Your username is " + username);
 			System.out.print("Your password is " + password);
 			

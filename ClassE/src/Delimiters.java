@@ -6,7 +6,7 @@ public class Delimiters {
 public static void main(String args[]){
 	//import scanner
 	Scanner input = new Scanner(System.in);
-	input.useDelimiter(",");
+	input.useDelimiter(",|");
 	//ask user to enter 10 numbers
 	System.out.println("Enter 10 numbers");
 	int num1 = input.nextInt();
